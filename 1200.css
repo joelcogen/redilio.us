@@ -1,0 +1,27 @@
+@media (max-width: 1200px) {
+  #wrapper {
+    width: 850px;
+  }
+  h2 {
+    width: 870px;
+    letter-spacing: 28px;
+    margin-bottom: 15px;
+  }
+  section p, footer {
+    width: 850px;
+    font-size: 37px;
+    height: 52px;
+    padding-top: 6px;
+  }
+  #other-links {
+    font-size: 28px;
+    height: 38px;
+    padding-top: 12px;
+  }
+  footer {
+    height: 110px;
+  }
+  footer p {
+    letter-spacing: 24px;
+  }
+}
