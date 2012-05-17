@@ -1,4 +1,4 @@
-@media (max-width: 1200px) {
+@media (max-width: 1220px) and (min-width: 880px) {
   #wrapper {
     width: 850px;
   }
