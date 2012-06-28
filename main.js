@@ -13,7 +13,7 @@ $(function(){
       $('footer em').eq(1).text('d');
       $('footer em').eq(2).text('l');
     }, 500);
-  }, 10000);
+  }, 30000);
 
   $(document).konami({callback: function(){sonic_rainboom()}});
 });
