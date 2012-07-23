@@ -1,35 +1,48 @@
 @media (max-width: 880px) {
+  /* line 2, ../sass/880.sass */
   #wrapper {
     width: 620px;
   }
+
+  /* line 5, ../sass/880.sass */
   h1 {
     width: 630px;
     letter-spacing: 92px;
   }
+  /* line 8, ../sass/880.sass */
   h1 em {
     margin-left: -12px;
     letter-spacing: 32px;
   }
+
+  /* line 12, ../sass/880.sass */
   h2 {
     width: 630px;
     letter-spacing: 9px;
     margin-bottom: 15px;
   }
+
+  /* line 17, ../sass/880.sass */
   section p, footer {
     width: 620px;
     font-size: 27px;
     height: 36px;
     padding-top: 10px;
   }
+
+  /* line 23, ../sass/880.sass */
   #other-links {
     font-size: 21px;
     height: 28px;
     padding-top: 10px;
   }
+
+  /* line 28, ../sass/880.sass */
   footer {
     height: 110px;
     padding-top: 0;
   }
+  /* line 31, ../sass/880.sass */
   footer p {
     letter-spacing: 0px;
     font-size: 114px;

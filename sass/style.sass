@@ -1,0 +1,99 @@
+@import "compass/reset"
+
+// Ocean Five palette by DESIGNJUNKEE
+// http://www.colourlovers.com/palette/1473/Ocean_Five
+$color1: #00A0B0
+$color2: #6A4A3C
+$color2_light: #DABAAC
+$color2_ultralight: #FFFAF6
+$color3: #CC333F
+$color4: #EB6841
+$color5: #EDC951
+
+body
+  background: $color2_ultralight
+  font-family: 'Cantarell', sans-serif
+  color: $color2
+  text-transform: lowercase
+
+#wrapper
+  width: 1200px
+  float: none
+  margin: 20px auto 0
+  overflow: hidden
+
+h1, h2, p, footer
+  float: left
+  overflow: visible
+
+a
+  text-decoration: none
+
+h1, h2
+  font-weight: normal
+  margin: 0
+
+h1
+  color: $color3
+  width: 862px
+  font-size: 137px
+  line-height: 137px
+  text-transform: uppercase
+  em
+    color: $color4
+    font-style: normal
+    margin-left: -36px
+
+h2
+  color: $color1
+  width: 338px
+  font-size: 75px
+  line-height: 61px
+  padding-top: 4px
+
+section p, footer
+  border-top: 10px solid $color2_light
+  width: 1200px
+  font-size: 51px
+  height: 66px
+  text-align: justify
+  text-align-last: justify
+  margin: 6px 0 0 0
+  padding: 12px 0 0 0
+
+section p:after
+  content: "."
+  display: inline-block
+  width: 100%
+  height: 0
+  visibility: hidden
+
+p#love
+  margin-top: 10px
+
+p:nth-child(odd) a, footer p em
+  color: $color4
+  font-style: normal
+
+p:nth-child(even) a
+  color: $color3
+
+#other-links
+  font-size: 40px
+  height: 56px
+  padding-top: 14px
+
+footer
+  color: $color4
+  height: 120px
+  padding-top: 0
+  p
+    text-transform: uppercase
+    font-size: 120px
+    line-height: 120px
+    height: 120px
+    letter-spacing: 68px
+    margin: 0 0 0 -15px
+    em
+      color: $color3
+

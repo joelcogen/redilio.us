@@ -1,0 +1,50 @@
+@media (max-width: 480px) {
+  /* line 2, ../sass/320.sass */
+  #wrapper {
+    width: 300px;
+  }
+
+  /* line 5, ../sass/320.sass */
+  h1 {
+    width: 310px;
+    letter-spacing: 92px;
+  }
+  /* line 8, ../sass/320.sass */
+  h1 em {
+    margin-left: -12px;
+    letter-spacing: 32px;
+  }
+
+  /* line 12, ../sass/320.sass */
+  h2 {
+    width: 630px;
+    letter-spacing: 9px;
+    margin-bottom: 15px;
+  }
+
+  /* line 17, ../sass/320.sass */
+  section p, footer {
+    width: 620px;
+    font-size: 27px;
+    height: 36px;
+    padding-top: 10px;
+  }
+
+  /* line 23, ../sass/320.sass */
+  #other-links {
+    font-size: 21px;
+    height: 28px;
+    padding-top: 10px;
+  }
+
+  /* line 28, ../sass/320.sass */
+  footer {
+    height: 110px;
+    padding-top: 0;
+  }
+  /* line 31, ../sass/320.sass */
+  footer p {
+    letter-spacing: 0px;
+    font-size: 114px;
+  }
+}

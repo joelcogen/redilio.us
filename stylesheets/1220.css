@@ -1,26 +1,35 @@
 @media (max-width: 1220px) and (min-width: 880px) {
+  /* line 2, ../sass/1220.sass */
   #wrapper {
     width: 850px;
   }
+
+  /* line 5, ../sass/1220.sass */
   h2 {
     width: 870px;
     letter-spacing: 28px;
     margin-bottom: 15px;
   }
+
+  /* line 10, ../sass/1220.sass */
   section p, footer {
     width: 850px;
     font-size: 37px;
     height: 52px;
-    padding-top: 6px;
   }
+
+  /* line 15, ../sass/1220.sass */
   #other-links {
     font-size: 28px;
     height: 38px;
     padding-top: 12px;
   }
+
+  /* line 20, ../sass/1220.sass */
   footer {
     height: 110px;
   }
+  /* line 22, ../sass/1220.sass */
   footer p {
     letter-spacing: 24px;
   }
